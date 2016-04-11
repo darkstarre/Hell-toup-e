@@ -15,3 +15,6 @@
 /log/*
 !/log/.keep
 /tmp
+
+#ignore the auth keys
+/config/secrets.yml

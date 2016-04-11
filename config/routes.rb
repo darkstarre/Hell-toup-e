@@ -6,7 +6,13 @@ Rails.application.routes.draw do
    root 'welcome#index'
 
   # Example of regular route:
-     get 'tweets/' => 'tweets#index'
-     get 'replies' => 'replies#index'
-     get 'media'   => 'media#index'
+     get '/tweets/' => 'tweets#index'
+     
+     #OAUTH
+     #get '/auth/twitter'
+     #get '/auth/twitter/callback'
+
+    # get 'replies/' => 'replies#index'
+    # get 'media/'   => 'media#index'
+
 end
